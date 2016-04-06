@@ -25,7 +25,7 @@ def is_palindrome(word):
     i = 0
     j = -1
 
-    while i < len(word):
+    while i < len(word)/2:
         if word[i] == word[j]:
             i += 1
             j -= 1
