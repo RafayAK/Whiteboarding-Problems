@@ -64,3 +64,5 @@ def is_anagram_of_palindrome(string):
 if __name__ == "__main__":
     import doctest
     doctest.testmod(verbose=True)
+
+# Runtime O(n)
