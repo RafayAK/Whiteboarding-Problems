@@ -22,3 +22,5 @@ def sum_list(num_list):
 if __name__ == "__main__":
     import doctest
     doctest.testmod(verbose=True)
+
+# Runtime O(n)
