@@ -45,3 +45,5 @@ def check(king, queen):
 if __name__ == "__main__":
     import doctest
     doctest.testmod(verbose=True)
+
+# Runtime O(1)
