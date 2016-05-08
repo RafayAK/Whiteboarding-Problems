@@ -24,8 +24,6 @@ class Stack(object):
 
         return not self._stack
 
-# line 25, also _stack
-
 
 class Stack2(object):
 
