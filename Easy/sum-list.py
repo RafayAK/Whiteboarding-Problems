@@ -20,7 +20,6 @@ def sum_list(num_list):
     return sum_of_nums
     
     # ALTERNATIVE SOLUTION
-    
     # return sum(x for x in num_list)
 
 if __name__ == "__main__":
