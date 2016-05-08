@@ -20,9 +20,9 @@ def group_anagrams(words):
                     temp.append(word2)
         for item in temp:
             words.remove(item)
-        if temp:
-            result.append(temp)
-            temp = []
+            
+        result.append(temp)
+        temp = []
 
     return result
 
