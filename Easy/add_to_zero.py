@@ -23,6 +23,10 @@ def add_to_zero(list_of_ints):
             if -item in list_of_ints:
                 return True
     return False
+    
+    # ALTERNATIVE SOLUTION
+    
+    # return any(item for item in list_of_ints if -item in list_of_ints)
 
 if __name__ == "__main__":
     import doctest
