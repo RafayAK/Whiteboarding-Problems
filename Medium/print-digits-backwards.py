@@ -29,6 +29,12 @@ def print_digits(num):
 
 # Runtime O(n^2)
 
+    # Alternative solution, same runtime but more elegant code
+    
+    # lst = list(str(num))
+    # for num in lst[::-1]:
+    #        print num
+
     # Alternative solution, better runtime
 
     # while not num % 10 == num:
@@ -40,6 +46,8 @@ def print_digits(num):
     # print num
 
 # Runtime O(n)
+
+
 
 if __name__ == "__main__":
     import doctest
