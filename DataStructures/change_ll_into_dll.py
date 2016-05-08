@@ -29,8 +29,10 @@ class DoublyLinkedList(object):
         self.head = None
         self.tail = None
 
+
 class DoublyLinkedNode(object):
-  def __init__(data, prev, next):
-    self.data = data
-    self.prev = prev
-    self.next = next
+
+    def __init__(self, data, prev, next):
+        self.data = data
+        self.prev = prev
+        self.next = next
