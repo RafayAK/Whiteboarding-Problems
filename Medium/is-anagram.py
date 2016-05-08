@@ -54,7 +54,7 @@ def is_anagram_of_palindrome(string):
 
 # seen_an_odd = False
 
-#     for count in seen.values():
+#     for count in counter.values():
 #         if count % 2 != 0:
 #             if seen_an_odd:
 #                 return False
