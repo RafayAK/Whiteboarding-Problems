@@ -15,6 +15,9 @@ def max_num(num_list):
             max_number = item
 
     return max_number
+    
+    # SAME AS 
+    # return max(num_list)
 
 if __name__ == "__main__":
     import doctest
