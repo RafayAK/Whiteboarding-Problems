@@ -27,3 +27,9 @@ def sum_in_range(n):
 def sum_in_range(n):
 
 	sum_of_ints = ((n + 1) * n) / 2
+
+# Solution 4(Generator Expression)
+
+def sum_in_range(n):
+	
+	return sum(x for x in range(n))
