@@ -17,6 +17,9 @@ def max_of_three(int1, int2, int3):
     num_list.append(int1)
     num_list.append(int2)
     num_list.append(int3)
+    
+    # ALTERNATIVE SOLUTION FOR 24-25
+    # return max(num_list)
 
     result = sorted(num_list)
     return result[-1]
