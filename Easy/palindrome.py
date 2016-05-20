@@ -32,6 +32,13 @@ def is_palindrome(word):
         else:
             return False
     return True
+    
+    # ALTERNATIVE SOLUTION
+    
+    # if word == word[::-1]:
+    #     return True
+    # else:
+    #     return False
 
 if __name__ == "__main__":
     import doctest
