@@ -21,6 +21,7 @@ def lucky_numbers(n):
 
     """
     possible_nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    # OR possible_nums = range(1,10)
     lucky_nums = []
 
     for i in range(n):
