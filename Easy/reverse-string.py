@@ -15,6 +15,10 @@ def rev_string(string):
         result += string[-i - 1]
 
     return result
+    
+    # ALTERNATIVE SOLUTION
+    
+    # return string[::-1]
 
 
 if __name__ == "__main__":
