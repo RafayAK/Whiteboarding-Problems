@@ -20,6 +20,10 @@ def show_evens(lst):
             result.append(i)
 
     return result
+    
+    # ALTERNATIVE SOLUTION
+    
+    # return [x for x in lst if x % 2 == 0]
 
 if __name__ == "__main__":
     import doctest
